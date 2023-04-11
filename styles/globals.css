@@ -23,6 +23,19 @@
     text-align: center;
     align-self: center;
 }
+.doc-img{
+    margin-top: 40px !important;
+}
+.nx-flex .active > a {
+    background-color: #29292a !important;
+}
+.nextra-code-block > pre {
+    background-color: #29292a !important;
+}
+.animate-spin {
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
 @media screen and (max-width: 500px) {
 
     a.playlist-item{
@@ -48,6 +61,20 @@
         max-height: 100vh;
         overflow-y: scroll;
     
+    }
+    div[dir="ltr"] {
+        margin: -1.5rem -2.5rem;
+        background-color: #141413;
+    }
+    .nextra-sidebar-container > div:last-child{
+        display: none;
+    }
+    .nextra-toc > .nextra-scrollbar > div.nx-mt-8 {
+        display: none;
+    }
+    .docsfooter{
+        height: 1px !important;
+        margin-bottom: -2.5rem !important;
     }
   }
   mux-player {
